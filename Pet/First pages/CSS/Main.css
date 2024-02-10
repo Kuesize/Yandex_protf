@@ -1,0 +1,525 @@
+/* Заголовок на шапке */
+h1 {
+    color: #ffffff;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 10px;
+    letter-spacing: 2px;
+    font-size: 45px;
+}
+
+/* Тело сайта */
+body {
+    background-color:#84837f;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Настройки шапки */
+header {
+    background-color: #38383d;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+}
+
+/* Карточки HTML и CSS */
+.langs {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Карточки с JS и VSC */
+.langs2 {
+    width: 50%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Карточки Git и LeetCode */
+.langs4 {
+  width: 50%;
+    margin: auto;
+    overflow: hidden;
+    margin-left: 600px;
+}
+
+/* Карточка с надписью внизу сайта */
+.langs3 {
+    background: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin: 30px;
+    margin-left: 600px;
+    float: left;
+    width: calc(33.33% - 10px);
+    text-align: center;
+}
+
+/* Карточка Git */
+
+.cardgit {
+background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px;
+    margin-left: 200px;
+    float: left;
+    width: calc(33.33% - 10px);
+    text-align: center;
+}
+
+.cardLC {
+  border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px;
+    margin-left: 200px;
+    float: left;
+    width: calc(33.33% - 10px);
+    text-align: center;
+}
+
+/* Карточка HTML */
+.cardhtml {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px;
+    margin-left: 110px;
+    float: left;
+    width: calc(33.33% - 10px);
+    text-align: center;
+}
+
+/* Карточка CSS */
+.cardcss {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px;
+    float: left;
+    width: calc(33.33% - 10px);
+    text-align: center;
+}
+
+/* Карточка JS */
+.cardjs {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 15px;
+    margin: 10px;
+    margin-left:110px;
+    float: left;
+    width: calc(33.33% - 10px);
+    text-align: center;
+}
+
+/* Карточка VSC */
+.cardvsc {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 23px;
+    margin: 10px;
+    float: left;
+    width: calc(33.33% - 25px);
+    text-align: center;
+}
+
+/* Карточка Git */
+.cardgit {
+  background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 23px;
+    margin: 10px;
+    float: left;
+    width: calc(33.33% - 25px);
+    text-align: center;
+}
+
+/* Карточка LeetCode */
+.cardLC {
+  background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    padding: 23px;
+    margin: 10px;
+    float: left;
+    width: calc(33.33% - 25px);
+    text-align: center;
+}
+
+/* Оступ картинок в карточках */
+.card img {
+    width: 50%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Настройка footer */
+footer {
+    background-color: #38383d;
+    color: #ffffff;
+    text-align: center;
+    padding: 5px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Размер надписей в карточках */
+.langsize1, .langsize2, .langsize3, .langsize4, .langsize5, .langsize6  {
+    font-size: 20px;
+    transition: 0.5s linear;
+    padding: 10px;
+}
+
+/* Измененный цвет при наведении на HTML */
+.langsize1:hover {
+    color: #fff;
+    background: #F03411;
+    transition: 0.2s;
+}
+
+/* Измененный цвет при наведении на CSS */
+.langsize2:hover {
+    color: #fff;
+    background: #006BBE;
+    transition: 0.2s;
+}
+
+/* Измененный цвет при наведении на JS */
+.langsize3:hover {
+    color: #fff;
+    background: #D4BD00;
+    transition: 0.2s;
+}
+
+/* Измененный цвет при наведении на VSC */
+.langsize4:hover {
+    color: #fff;
+    background: #4AAFF3;
+    transition: 0.2s;
+}
+
+/* Измененный цвет при наведении на Git */
+.langsize5:hover {
+    color: #fff;
+    background: #e73922;
+    transition: 0.2s;
+}
+
+/* Измененный цвет при наведении на LeetCode */
+.langsize6:hover {
+  color: #fff;
+  background: #006BBE;
+  transition: 0.2s;
+}
+
+/* Цвет надписи внутри карточки у HTML */
+.hhtml {
+    font-size: 35px;
+    color: #F03411;
+}
+
+/* Цвет надписи внутри карточки у CSS */
+.hcss {
+    font-size: 35px;
+    color: #006BBE;
+}
+
+/* Цвет надписи внутри карточки у JS */
+.hjs {
+    font-size: 35px;
+    color: #D4BD00;
+}
+
+/* Цвет надписи внутри карточки у VSC */
+.hvsc {
+    font-size: 35px;
+    color: #4AAFF3;
+}
+
+/* Цве надписи внутри карточки у Git */
+.hgit {
+  font-size: 35px;
+  color:#e94434;
+}
+
+.hLC {
+  font-size: 35px;
+  color: orange;
+}
+
+/* Настройка картинки в карточке у HTML */
+.imghtml {
+    margin-left: 45px;
+    margin-top: 10px;
+  display: inline-block; 
+  overflow: hidden;
+  display: block;
+}
+
+/* Изменение размера картинки при наведении на HTML */
+.imghtml:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+/* Настройка картинки в карточке у CSS */
+.imgcss {
+    margin-left:45px;
+    margin-top: 10px;
+  display: inline-block; 
+  overflow: hidden;
+  display: block;
+}
+
+/* Изменение размера картинки при наведении на CSS */
+.imgcss:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+/* Настройка картинки в карточке у JS */
+.imgjs {
+    margin-left: 50px;
+    margin-top: 10px;
+  display: inline-block; 
+  overflow: hidden;
+  display: block;
+}
+
+/* Изменение размера картинки при наведении на JS */
+.imgjs:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+/* Настройка картинки в карточке у VSC/ */
+.imgvsc {
+    margin-left: 50px;
+    margin-top: 10px;
+  display: inline-block; 
+  overflow: hidden;
+  display: block;
+}
+
+/* Изменение размера картинки при наведении на VSC */
+.imgvsc:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+
+/* Настройка картинки в карточке у Git/ */
+.imggit {
+  margin-left: 50px;
+    margin-top: 10px;
+  display: inline-block; 
+  overflow: hidden;
+  display: block;
+}
+
+/* Изменение размера картинки при наведении на Git */
+.imggit:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+/* Настройка картинки в карточке у LeetCode/ */
+.imgLC {
+  margin-left: 50px;
+    margin-top: 10px;
+  display: inline-block; 
+  overflow: hidden;
+  display: block;
+}
+
+/* Изменение размера картинки при наведении на LeetCode */
+.imgLC:hover {
+  transition: 0.2s;
+  transform: scale(1.2);
+}
+
+/* Настройка шрифта надписи внизу сайта */
+.enjoy {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* Гирлянда */
+.lightrope {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    position: absolute;
+    z-index: 1;
+    margin: -15px 0 0 0;
+    padding: 0;
+    pointer-events: none;
+    width: 100%;
+  }
+  
+  /* Гирлянда в списке */
+  .lightrope li {
+    position: relative;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 12px;
+    height: 28px;
+    border-radius: 50%;
+    margin: 20px;
+    display: inline-block;
+    background: #00f7a5;
+    box-shadow: 0px 4.66667px 24px 3px #00f7a5;
+    -webkit-animation-name: flash-1;
+    animation-name: flash-1;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+  }
+  
+  /* Цвет и свет лампочки */
+  .lightrope li:nth-child(2n+1) {
+    background: cyan;
+    box-shadow: 0px 4.66667px 24px 3px rgba(0, 255, 255, 0.5);
+    -webkit-animation-name: flash-2;
+    animation-name: flash-2;
+    -webkit-animation-duration: 0.4s;
+    animation-duration: 0.4s;
+  }
+  
+  /* Второй цвет у другой лампочки */
+  .lightrope li:nth-child(4n+2) {
+    background: #f70094;
+    box-shadow: 0px 4.66667px 24px 3px #f70094;
+    -webkit-animation-name: flash-3;
+    animation-name: flash-3;
+    -webkit-animation-duration: 1.1s;
+    animation-duration: 1.1s;
+  }
+  
+  /* Скорость анимации мигания лампочек */
+  .lightrope li:nth-child(odd) {
+    -webkit-animation-duration: 1.8s;
+    animation-duration: 1.8s;
+  }
+  
+  /* Сколько не горит лампочка */
+  .lightrope li:nth-child(3n+1) {
+    -webkit-animation-duration: 1.4s;
+    animation-duration: 1.4s;
+  }
+  
+  /* Настройка гирляды до работы */
+  .lightrope li:before {
+    content: "";
+    position: absolute;
+    background: #222;
+    width: 10px;
+    height: 9.33333px;
+    border-radius: 3px;
+    top: -4.66667px;
+    left: 1px;
+  }
+  
+  /* Настройка гирлянды после работы */
+  .lightrope li:after {
+    content: "";
+    top: -14px;
+    left: 9px;
+    position: absolute;
+    width: 52px;
+    height: 18.66667px;
+    border-bottom: solid #222 2px;
+    border-radius: 50%;
+  }
+  
+  .lightrope li:last-child:after {
+    content: none;
+  }
+  
+  .lightrope li:first-child {
+    margin-left: -40px;
+  }
+  
+  @-webkit-keyframes flash-1 {
+    0%, 100% {
+      background: #00f7a5;
+      box-shadow: 0px 4.66667px 24px 3px #00f7a5;
+    }
+    50% {
+      background: rgba(0, 247, 165, 0.4);
+      box-shadow: 0px 4.66667px 24px 3px rgba(0, 247, 165, 0.2);
+    }
+  }
+  
+  @keyframes flash-1 {
+    0%, 100% {
+      background: #00f7a5;
+      box-shadow: 0px 4.66667px 24px 3px #00f7a5;
+    }
+    50% {
+      background: rgba(0, 247, 165, 0.4);
+      box-shadow: 0px 4.66667px 24px 3px rgba(0, 247, 165, 0.2);
+    }
+  }
+  
+  @-webkit-keyframes flash-2 {
+    0%, 100% {
+      background: cyan;
+      box-shadow: 0px 4.66667px 24px 3px cyan;
+    }
+    50% {
+      background: rgba(0, 255, 255, 0.4);
+      box-shadow: 0px 4.66667px 24px 3px rgba(0, 255, 255, 0.2);
+    }
+  }
+  
+  @keyframes flash-2 {
+    0%, 100% {
+      background: cyan;
+      box-shadow: 0px 4.66667px 24px 3px cyan;
+    }
+    50% {
+      background: rgba(0, 255, 255, 0.4);
+      box-shadow: 0px 4.66667px 24px 3px rgba(0, 255, 255, 0.2);
+    }
+  }
+  
+  @-webkit-keyframes flash-3 {
+    0%, 100% {
+      background: #f70094;
+      box-shadow: 0px 4.66667px 24px 3px #f70094;
+    }
+    50% {
+      background: rgba(247, 0, 148, 0.4);
+      box-shadow: 0px 4.66667px 24px 3px rgba(247, 0, 148, 0.2);
+    }
+  }
+  
+  @keyframes flash-3 {
+    0%, 100% {
+      background: #f70094;
+      box-shadow: 0px 4.66667px 24px 3px #f70094;
+    }
+    50% {
+      background: rgba(247, 0, 148, 0.4);
+      box-shadow: 0px 4.66667px 24px 3px rgba(247, 0, 148, 0.2);
+    }
+  }
