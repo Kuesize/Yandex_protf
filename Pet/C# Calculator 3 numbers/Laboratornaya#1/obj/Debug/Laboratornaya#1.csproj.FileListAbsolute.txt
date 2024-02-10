@@ -1,0 +1,10 @@
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\bin\Debug\Laboratornaya#1.exe.config
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\bin\Debug\Laboratornaya#1.exe
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\bin\Debug\Laboratornaya#1.pdb
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\obj\Debug\Laboratornaya#1.csproj.AssemblyReference.cache
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\obj\Debug\Laboratornaya_1.Form1.resources
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\obj\Debug\Laboratornaya_1.Properties.Resources.resources
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\obj\Debug\Laboratornaya#1.csproj.GenerateResource.cache
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\obj\Debug\Laboratornaya#1.csproj.CoreCompileInputs.cache
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\obj\Debug\Laboratornaya#1.exe
+D:\Repos\VS REPOS\Laboratornaya#1\Laboratornaya#1\obj\Debug\Laboratornaya#1.pdb
